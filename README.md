@@ -1,3 +1,3 @@
 # dsc680_applied_datascience
 
-Bellevue University
+This repository contains coursework for DSC680 - Applied Data Science, offered by Bellevue University.
