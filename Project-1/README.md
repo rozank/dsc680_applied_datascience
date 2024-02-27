@@ -1,8 +1,9 @@
 ### This folder will include everything that was submitted for project 1
 
 
-#### Project 1 
+#### Project 1 Proposal
 
+#### 
 Topic:
 “Predicting Startup Funding Success- A Machine Learning Approach”
 For this project, a predictive model will be developed to estimate the likelihood of startup
