@@ -1,4 +1,5 @@
-### This folder will include everything that was submitted for project 1
+### PREDICTING STARTUP FUNDING SUCCESS
+#### A MACHINE LEARNING APPROACH
 
 
 **Overview**
