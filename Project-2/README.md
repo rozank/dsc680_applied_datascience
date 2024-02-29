@@ -3,40 +3,35 @@
 #### Advanced Analytics of Facebook Group Posts
 
 
-
 **Overview**
 
-This project tackles the critical challenge of securing funding in the competitive startup ecosystem by developing a predictive model to assess the likelihood of a startup receiving funding. Utilizing the "Startup Investments Crunchbase" dataset, which comprises data from approximately 54,000 startups, this analysis aims to facilitate a more efficient and informed decision-making process for both investors and entrepreneurs.
+This project tackles the challenge of managing an ever-growing volume of posts and discussions in a community Facebook group, which has seen rapid growth from 400 to 700 houses. Leveraging Natural Language Processing (NLP) and Latent Dirichlet Allocation (LDA), we analyze 3,500 posts from the group's inception in March 2022 to derive actionable insights for improving communication and community engagement.
 
 **Key Features**
 
-_Data Preparation:_ Comprehensive cleaning and preprocessing to ensure quality and consistency, including handling of outliers and null values.
-_Exploratory Data Analysis (EDA):_ Insights into funding timelines, prevalent funding ranges, and sector dominance, highlighting an average of 40.57 months to first funding.
-_Modeling Techniques:_ Employment of Logistic Regression and Decision Tree models, focusing on accuracy, precision, recall, and F1 score.
-_Feature Engineering:_ Optimization of the dataset by consolidating market values into distinct industry groups and selecting critical predictors of funding status.
+Automated Data Collection: Utilizes Apify to gather posts and metadata from the Facebook group, focusing on non-personal data.
+Advanced Data Preprocessing: Implements rigorous steps to anonymize user identities and prepare textual data for NLP analysis.
+In-depth Analysis: Employs NLP and LDA techniques to identify main discussion topics, analyze their evolution, and understand community interests.
+Outcome
 
-**Outcomes**
+**Analysis**
 
-The analysis demonstrated that Logistic Regression outperformed the Decision Tree model, achieving an accuracy of 83.58% and precision of 84.73%, with both models registering an F1 score of 90.91%. This underscores the effectiveness of Logistic Regression in predicting the funding status of startups, especially with fewer misclassifications for non-funded startups.
+A significant growth in unique users, highlighting expanding community engagement.
+Concentrated content creation among top users.
+Diverse topics of discussion including package delivery issues, local services, infrastructure, and education.
 
-**Future Directions**
+**Future Direction**
 
-Model Enhancement: Exploration of alternative machine learning models, such as Support Vector Machines (SVM) and neural networks, to refine predictions.
-Feature Expansion: Incorporation of additional features related to the startup team, product offerings, and marketing strategies for a more detailed analysis.
+The project outlines a roadmap for extending its methodologies to behavioral modeling, content personalization, and community health monitoring. It also suggests adaptability to other social media platforms for a comprehensive community engagement strategy.
 
 **Implementation and Ethical Considerations**
 
-The project proposes continuous validation of the Logistic Regression model against new datasets and integration into investment analysis tools. Ethical considerations include ensuring data privacy, mitigating biases, and transparently communicating predictive limitations to promote fairness, diversity, and innovation in the startup ecosystem.
+Short-term strategies include awareness campaigns about community interests, with medium-term actions focusing on partnerships with local services. Long-term plans involve enhancing communication channels and tools for moderators. Ethically, the project emphasizes data privacy, bias mitigation, and ensuring diverse representation in data analysis.
 
 **Conclusion**
 
-This project presents a valuable tool for stakeholders in the startup ecosystem, balancing accuracy and interpretability essential for practical application and decision-making in securing startup funding.
+This project underscores the potential of utilizing advanced analytics to foster social media-based community engagement. By analyzing communication patterns within the Facebook group, it provides a foundational blueprint for enhancing community support and interaction.
 
-**References:**
+**Reference**
 
-Özkurt, C. (2022). "Startup Investments EDA." Kaggle. Retrieved [December 3rd, 2023]
-from https://www.kaggle.com/code/cihatzkurt/startup-investments-eda
-
-Andy_M. (2020, February 17). Startup investments (crunchbase). Kaggle.
-https://www.kaggle.com/datasets/arindam235/startup-investmentscrunchbase?
-resource=download
+Kosinski, M., Matz, S. C., Gosling, S. D., Popov, V., & Stillwell, D. (2015). Facebook as a research tool for the Social Sciences: Opportunities, Challenges, Ethical Considerations, and Practical Guidelines.
