@@ -41,3 +41,5 @@ This project underscores the potential of utilizing advanced analytics to foster
 **Reference**
 
 Kosinski, M., Matz, S. C., Gosling, S. D., Popov, V., & Stillwell, D. (2015). Facebook as a research tool for the Social Sciences: Opportunities, Challenges, Ethical Considerations, and Practical Guidelines.
+
+Jiang, J., Wilson, C., Wang, X., Sha, W., Huang, P., Dai, Y., & Zhao, B. Y. (2013). Understanding latent interactions in online social networks. https://people.cs.uchicago.edu/~ravenben/publications/pdf/latent-tweb13.pdf
