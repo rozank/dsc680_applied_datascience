@@ -1,5 +1,4 @@
-## NFL Game Day Arrests
-### An EDA approach
+## NFL Game Day Arrests: An EDA approach
 
 ### Overview
 
