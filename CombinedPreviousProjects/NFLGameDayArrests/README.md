@@ -1,0 +1,9 @@
+## NFL Game Day Arrests: An EDA approach
+
+### Overview
+
+This project explores the relationship between NFL game days and the occurrence of arrests in host cities, employing a comprehensive dataset (nflarrests.csv) to analyze various factors such as game outcomes, home vs. away team dynamics, score differences, and whether the game was a divisional match. Utilizing tools and libraries like Pandas for data manipulation, Seaborn and Matplotlib for visualization, and Scikit-learn for linear regression analysis, the study aimed to uncover any statistical correlations between the excitement of NFL games and the frequency of arrests. Initial analyses included generating descriptive statistics, creating a heatmap to identify missing data, and employing visualizations like pair plots, bar charts for probability distributions, and cumulative distribution functions to examine the distribution of arrests.
+
+Key statistical tests used were Pearson's correlation coefficient, Spearman's rank correlation coefficient, and chi-square tests for independence. Despite the hypothesis that NFL games might influence arrest numbers, preliminary findings revealed weak correlations between the game outcomes (score differences) and arrest counts, as indicated by Spearman's coefficient of -0.009 and a chi-square p-value of 1, suggesting independence between these variables. Further linear regression analysis found a minimal effect size, with the model explaining only 0.22% of the variance in arrests, highlighting the complexity of predicting arrest frequencies based on NFL game outcomes alone.
+
+This project underscores the challenges in correlating specific events with social behaviors and the need for more nuanced data and approaches to draw significant conclusions. It opens avenues for future research, suggesting that factors beyond the direct outcomes of sports events might play more substantial roles in influencing public behavior on game days.
