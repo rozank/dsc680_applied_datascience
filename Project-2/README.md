@@ -1,4 +1,4 @@
-## Unveiling Dallas' Top Airbnbs Through Data Science
+## Unveiling Dallas' Top 10 Airbnbs Through Data Science
 
 **Overview**
 
